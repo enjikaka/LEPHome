@@ -1,0 +1,14 @@
+msg:
+    set-home:
+        default: "§aYour new home is set."
+        named: "§aHome named §e%h §acreated."
+        error: "§cA home with the name §e%h §calready exist."
+    to-home:
+        no-home: "§cYou have not yet created a home."
+        how-to: "Do §a/sethome §fto set a home."
+        no-named-home: "§cA home named §e%h §cdoes not exist."
+    list-homes:
+        prefix: "§aHomes: §e"
+        error: "§cYou have no named homes."
+        divider: "§7, §e"
+    delete-home: "§aThe home named §e%h §ais now §cremoved§a."

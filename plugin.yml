@@ -1,0 +1,31 @@
+name: LEPHome
+main: se.enji.lep.Home
+author: enjikaka
+website: http://enji.se
+version: 0.2
+
+commands:
+    delhome:
+        description: Delete a home.
+        usage: Type /<command> to delete a home.
+        permission: lep.home
+    sethome:
+        description: Set a home.
+        usage: Type /<command> to set a home.
+        permission: lep.home
+    home:
+        description: Go to a home
+        usage: Type /<command> to go to a home.
+        permission: lep.home
+    homes:
+        description: Gives a list of all your homes.
+        usage: Type /<command> to get a list of all your homes.
+        permission: lep.home
+    listhomes:
+        description: Gives a list of all your homes.
+        usage: Type /<command> to get a list of all your homes.
+        permission: lep.home
+
+permissions:
+    lep.home:
+        description: Gives access to all Home commands.
